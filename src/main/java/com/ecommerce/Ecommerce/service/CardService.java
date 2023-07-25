@@ -5,4 +5,5 @@ import com.ecommerce.Ecommerce.dto.response.CardResponseDto;
 
 public interface CardService {
     public CardResponseDto addCard(CardRequestDto cardRequestDto);
+    public String cardMask(String cardNumber);
 }
