@@ -1,5 +1,6 @@
 package com.ecommerce.Ecommerce.dto.response;
 
+import com.ecommerce.Ecommerce.Enum.OrderStatus;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -21,6 +22,8 @@ public class OrderResponseDto {
     int orderTotal;
 
     String customerName;
+
+    OrderStatus status;
 
     List<ItemResponseDto> item;
 }

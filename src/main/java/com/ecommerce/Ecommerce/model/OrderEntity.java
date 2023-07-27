@@ -1,5 +1,6 @@
 package com.ecommerce.Ecommerce.model;
 
+import com.ecommerce.Ecommerce.Enum.OrderStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -26,6 +27,9 @@ public class OrderEntity {
     Date orderDate;
 
     String cardUsed;
+
+    @Enumerated(EnumType.STRING)
+    OrderStatus status;
 
     int orderTotal;
     @OneToMany(mappedBy = "orderEntity",cascade = CascadeType.ALL)

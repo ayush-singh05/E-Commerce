@@ -13,6 +13,7 @@ public class CardTransformer {
         return Card.builder()
                 .cardNo(cardRequestDto.getCardNumber())
                 .cardType(cardRequestDto.getCardType())
+
                 .validTill((Date) cardRequestDto.getValidTill())
                 .cvv(cardRequestDto.getCvv())
                 .build();

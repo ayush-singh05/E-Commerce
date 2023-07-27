@@ -20,6 +20,7 @@ public class OrderTransformer {
                 .cardUsed(orderEntity.getCardUsed())
                 .orderTotal(orderEntity.getOrderTotal())
                 .customerName(orderEntity.getCustomer().getName())
+                .status(orderEntity.getStatus())
                 .item(itemDto)
                 .build();
     }
