@@ -60,7 +60,7 @@ Swagger Documentation: Generate comprehensive API documentation using Swagger, p
 ### 7. Auto-Generated Emails
 Order Confirmation: Send an automated email to customers upon successfully placing an order, confirming their purchase and providing relevant order details.
 Order Updates: Notify customers via email about any changes in the order status (e.g., processing, shipping, delivery).
-### 8. Security and Authentication (#This is under Development)
+### 8. Security and Authentication ([This is under Development])
 Implement proper security measures to protect sensitive data and prevent unauthorized access to API endpoints.
 Use industry-standard practices for authentication and authorization, such as JWT (JSON Web Tokens) or OAuth.
 ### 9. Error Handling and Validation
