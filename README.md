@@ -30,7 +30,7 @@ A robust and scalable e-commerce backend built using Spring Boot, Hibernate, JPA
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/e-commerce-backend.git`
+1. Clone the repository: `git clone https://github.com/your-username/E-Commerce.git`
 2. Set up the MySQL database and configure the database connection in `application.properties`.
 3. Build the project: `mvn clean install`
 4. Run the application: `mvn spring-boot:run`
