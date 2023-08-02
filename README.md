@@ -36,7 +36,7 @@ A robust and scalable e-commerce backend built using Spring Boot, Hibernate, JPA
 4. Run the application: `mvn spring-boot:run`
 
 ## Features
-# 1. User Management(this is under proccess)
+### 1. User Management
 User Registration: Allow users to create an account with the platform by providing necessary information like username, email, and password.
 User Login and Authentication: Implement a secure login system using tokens or session management to authenticate users and protect sensitive data.
 Password Reset: Provide a mechanism for users to reset their passwords if they forget them.
@@ -60,7 +60,7 @@ Swagger Documentation: Generate comprehensive API documentation using Swagger, p
 # 7. Auto-Generated Emails
 Order Confirmation: Send an automated email to customers upon successfully placing an order, confirming their purchase and providing relevant order details.
 Order Updates: Notify customers via email about any changes in the order status (e.g., processing, shipping, delivery).
-# 8. Security and Authentication(this is under proccess)
+# 8. Security and Authentication (This is under Development)
 Implement proper security measures to protect sensitive data and prevent unauthorized access to API endpoints.
 Use industry-standard practices for authentication and authorization, such as JWT (JSON Web Tokens) or OAuth.
 # 9. Error Handling and Validation
