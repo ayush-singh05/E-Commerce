@@ -36,7 +36,7 @@ A robust and scalable e-commerce backend built using Spring Boot, Hibernate, JPA
 4. Run the application: `mvn spring-boot:run`
 
 ## Features
-# 1. User Management(this is under proccess)
+* 1. User Management(this is under proccess)
 User Registration: Allow users to create an account with the platform by providing necessary information like username, email, and password.
 User Login and Authentication: Implement a secure login system using tokens or session management to authenticate users and protect sensitive data.
 Password Reset: Provide a mechanism for users to reset their passwords if they forget them.
